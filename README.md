@@ -16,9 +16,9 @@
 
 ## Live Demo
 
-Personal website <a href="https://rawcdn.githack.com/tta2yta/GATask/d58d3ad405378039900bbe63d90a0e4c66afa7f2/main.html">Personal website</a>
-Blog site <a href="https://rawcdn.githack.com/tta2yta/GATask/d58d3ad405378039900bbe63d90a0e4c66afa7f2/blog.html">Blog</a>
-Buisness site <a href="https://rawcdn.githack.com/tta2yta/GATask/d58d3ad405378039900bbe63d90a0e4c66afa7f2/restaurant.html">Buisness website</a>
+Personal website <a href="https://rawcdn.githack.com/tta2yta/GATask/d58d3ad405378039900bbe63d90a0e4c66afa7f2/main.html">Personal website</a><br/>
+Blog site <a href="https://rawcdn.githack.com/tta2yta/GATask/d58d3ad405378039900bbe63d90a0e4c66afa7f2/blog.html">Blog</a><br />
+Buisness site <a href="https://rawcdn.githack.com/tta2yta/GATask/d58d3ad405378039900bbe63d90a0e4c66afa7f2/restaurant.html">Buisness website</a><br />
 Traffic light <a href="https://rawcdn.githack.com/tta2yta/GATask/d58d3ad405378039900bbe63d90a0e4c66afa7f2/traffic.html">Traffic light</a>
 
 ## ✒️ Author <a name = "author"></a>

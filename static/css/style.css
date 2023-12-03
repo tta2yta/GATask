@@ -15,9 +15,13 @@ body {
 .left {
   width: 30%;
 }
+.left li {
+  list-style-type: none;
+}
 .right {
   width: 70%;
   text-align: right;
+  padding-right: 40px;
 }
 .right a {
   text-decoration: none;
@@ -33,18 +37,12 @@ body {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
-  border-bottom: 1px solid #2196f3;
-}
-.mainB {
-  /* height: 70%; */
+  /* border-bottom: 1px solid #2196f3; */
 }
 .main-body {
   display: grid;
   grid-template-columns: auto auto;
-  margin: 0 20%;
-}
-.body-content > div {
-  border: 10px solid burlywood;
+  margin: 0 10%;
 }
 .body-content img {
   width: 300px;
@@ -52,6 +50,10 @@ body {
 }
 .body-content p {
   font-size: 9pt;
+}
+.desc p {
+  text-align: justify;
+  margin-left: 20px;
 }
 .footer {
   display: flex;
@@ -61,6 +63,6 @@ body {
 }
 .footer > div {
   text-align: center;
-  border: 10px solid burlywood;
+  /* border: 10px solid burlywood; */
   width: 33%;
 }

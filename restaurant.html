@@ -1,0 +1,209 @@
+<html>
+  <head>
+    <title>Tedros Site</title>
+    <link rel="stylesheet" href="./static/css/style_ec.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div></div>
+      <div class="container">
+        <div class="menu">
+          <div class="left">
+            <span>Terro Restaurant</span>
+          </div>
+
+          <div class="right">
+            <li>
+              <select>
+                <option>Slect categories</option>
+                <option>breakfast</option>
+                <option>lunch</option>
+                <option>dinner</option>
+              </select>
+            </li>
+            <li><a href="">Home</a></li>
+            <li>
+              <a href="">About Us</a>
+            </li>
+            <li>
+              <a href=""><img class="cart" src="./static/images/cart.png" /></a>
+              <span class="cart-num" id="cart-num"></span>
+            </li>
+          </div>
+        </div>
+        <div class="main-body">
+          <div class="search-form">
+            <div>
+              <form>
+                <input
+                  type="text"
+                  name=""
+                  value=""
+                  placeholder="seach you favourite food"
+                />
+              </form>
+            </div>
+            <div class="categ-div">
+              <select class="categ">
+                <option>Slect categories</option>
+                <option>breakfast</option>
+                <option>lunch</option>
+                <option>dinner</option>
+              </select>
+            </div>
+          </div>
+          <div class="todays-pick">
+            <h3>Today's best</h3>
+            <div class="img-pick">
+              <img src="./static/images/rest-1.jpeg" />
+            </div>
+          </div>
+          <div class="img-cards">
+            <div class="cards">
+              <a href="#" class="card">
+                <p class="card-heading">Pineapple Chicken Luau</p>
+                <div class="price">
+                  <p>$18.89</p>
+                  <p class="date-r">
+                    <span onclick="addCart()">Add To Cart</span>
+                  </p>
+                </div>
+                <div class="card-img">
+                  <img src="./static/images/rest-1.jpeg" />
+                </div>
+                <p class="card-desc">
+                  A tropical treat! Grilled chicken, crispy bacon and juicy
+                  pineapple on KC Masterpiece BBQ sauce. - (120-400 cal./slice)
+                </p>
+                <p class="date" onclick="addCart()">Add To Cart</p>
+              </a>
+              <a href="#" class="card">
+                <p class="card-heading">Mt. Veggiemore</p>
+                <div class="price">
+                  <p>$8.89</p>
+                  <p class="date-r">
+                    <span onclick="addCart()">Add To Cart</span>
+                  </p>
+                </div>
+
+                <div class="card-img">
+                  <img src="./static/images/rest-2.jpeg" />
+                </div>
+                <p class="card-desc">
+                  A Vegetarian Landmark! Loads of mushrooms, black olives, bell
+                  peppers, artichoke hearts and sliced fresh tomatoes on classic
+                  red sauce. - (90-310 cal./slice)
+                </p>
+                <p class="date" onclick="addCart()">Add To Cart</p>
+              </a>
+
+              <a href="#" class="card">
+                <p class="card-heading">The McKinley</p>
+                <div class="price">
+                  <p>$10.89</p>
+                  <p class="date-r">
+                    <span onclick="addCart()">Add To Cart</span>
+                  </p>
+                </div>
+                <div class="card-img">
+                  <img src="./static/images/rest-3.jpeg" />
+                </div>
+                <p class="card-desc">
+                  A Traditional Combination. Our legendary pepperoni, Italian
+                  sausage, mushrooms, black olives, bell peppers, onions and
+                  diced tomatoes on our classic red sauce. - (130-320
+                  cal./slice)
+                </p>
+                <p class="date" onclick="addCart()">Add To Cart</p>
+              </a>
+            </div>
+
+            <div class="cards">
+              <a href="#" class="card">
+                <p class="card-heading">Pineapple Chicken Luau</p>
+                <div class="price">
+                  <p>$18.89</p>
+                  <p class="date-r">
+                    <span onclick="addCart()">Add To Cart</span>
+                  </p>
+                </div>
+                <div class="card-img">
+                  <img src="./static/images/rest-1.jpeg" />
+                </div>
+                <p class="card-desc">
+                  A tropical treat! Grilled chicken, crispy bacon and juicy
+                  pineapple on KC Masterpiece BBQ sauce. - (120-400 cal./slice)
+                </p>
+                <p class="date" onclick="addCart()">Add To Cart</p>
+              </a>
+              <a href="#" class="card">
+                <p class="card-heading">Mt. Veggiemore</p>
+                <div class="price">
+                  <p>$18.89</p>
+                  <p class="date-r"><span>Add To Cart</span></p>
+                </div>
+                <div class="card-img">
+                  <img src="./static/images/rest-2.jpeg" />
+                </div>
+                <p class="card-desc">
+                  A Vegetarian Landmark! Loads of mushrooms, black olives, bell
+                  peppers, artichoke hearts and sliced fresh tomatoes on classic
+                  red sauce. - (90-310 cal./slice)
+                </p>
+                <p class="date">Add To Cart</p>
+              </a>
+
+              <a href="#" class="card">
+                <p class="card-heading">The McKinley</p>
+                <div class="price">
+                  <p>$18.89</p>
+                  <p class="date-r"><span>Add To Cart</span></p>
+                </div>
+                <div class="card-img">
+                  <img src="./static/images/rest-3.jpeg" />
+                </div>
+                <p class="card-desc">
+                  A Traditional Combination. Our legendary pepperoni, Italian
+                  sausage, mushrooms, black olives, bell peppers, onions and
+                  diced tomatoes on our classic red sauce. - (130-320
+                  cal./slice)
+                </p>
+                <p class="date">Add To Cart</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="ft-about">
+            <div class="ft-about-ln">
+              <h4>About Us</h4>
+              <a href="#">About Organization </a>
+              <a href="#">Our Clients </a>
+              <a href="#">Our Partners </a>
+            </div>
+
+            <div class="ft-about-info">
+              <h4>Useful Information</h4>
+              <p>
+                I would turn my strength to the menanders, who would help the
+                chosen one, and not to bodies of iron. Euismod, unless the
+                portal is soft. Sometimes he wants Euismod in the kids.
+              </p>
+            </div>
+          </div>
+          <div class="ft-contact">
+            <h4>Contact info</h4>
+            <div class="ft-contact-ln">
+              <li>Address: Street Name, NY 38954</li>
+              <li>Phone: 578-393-4937</li>
+              <li>Mobile: 578-393-4937</li>
+              <li>Website: creativethemes.com</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <script type="text/javascript" src="./static/js/script_ec.js"></script>
+  </body>
+</html>
